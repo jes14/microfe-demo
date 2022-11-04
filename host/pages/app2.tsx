@@ -1,9 +1,9 @@
-import dynamic from "next/dynamic";
+const App2 = () => {
+  return (
+    <main>
+      <h1>This is app2</h1>
+    </main>
+  );
+};
 
-const RemoteApp2 = dynamic(() => import("../../app2/components/app2"), {
-  ssr: false,
-});
-
-const App1 = () => <RemoteApp2 />;
-
-export default App1;
+export default App2;

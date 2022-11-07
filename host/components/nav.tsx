@@ -24,12 +24,14 @@ const Nav = () => (
       <div className="text-sm lg:flex-grow">
         <a
           href="/app1"
+          data-cy="loadApp1"
           className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
         >
           Load app1
         </a>
         <a
           href="/app2"
+          data-cy="loadApp2"
           className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
         >
           Load app2
